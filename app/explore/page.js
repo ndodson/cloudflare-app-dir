@@ -2,7 +2,7 @@ export const revalidate = 60;
 
 
 const getSpaces = async () => {
-  const data = await fetch(`http://localhost:8080/api/graphql`, {
+  const data = await fetch(`https://staging.hub.uplink.wtf/api/graphql`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
